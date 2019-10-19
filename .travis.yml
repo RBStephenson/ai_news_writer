@@ -20,10 +20,10 @@ script: tox
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: RBStephensno
+  user: RBStephenson
   password:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: RBStephensno/ai_news_writer
+    repo: RBStephenson/ai_news_writer
     python: 3.7

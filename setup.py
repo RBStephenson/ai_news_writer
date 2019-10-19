@@ -49,7 +49,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/RBStephensno/ai_news_writer',
+    url='https://github.com/RBStephenson/ai_news_writer',
     version='0.1.0',
     zip_safe=False,
 )
