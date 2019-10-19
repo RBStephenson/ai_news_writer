@@ -3,9 +3,6 @@ ai_news_writer
 ==============
 
 
-.. image:: https://img.shields.io/pypi/v/ai_news_writer.svg
-        :target: https://pypi.python.org/pypi/ai_news_writer
-
 .. image:: https://img.shields.io/travis/RBStephenson/ai_news_writer.svg
         :target: https://travis-ci.org/RBStephenson/ai_news_writer
 
