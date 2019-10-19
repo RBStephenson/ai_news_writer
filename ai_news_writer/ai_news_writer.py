@@ -2,6 +2,8 @@
 
 """Main module."""
 
+import feedparser
+
 ai_news_feeds = [
     {"name": "AI Trends", "url": "https://www.aitrends.com/feed/"},
     {"name": "Science Daily", "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"},
@@ -21,9 +23,7 @@ ai_news_feeds = [
     {"name": "VentureBeat", "url": "http://feeds.feedburner.com/venturebeat/SZYF?format=xml"},
 ]
 
-import feedparser
-
 
 def parse_feed(name, url):
     output = feedparser.parse(url_file_stream_or_string=url)
-    print(output)
+    return output

@@ -28,5 +28,16 @@ def test_content(ai_news_feeds):
 
 
 def test_feed_parse(parse_feed):
-    print(parse_feed)
-    assert parse_feed is None
+    print(parse_feed.feed.title)
+    print(parse_feed.feed.link)
+    print(parse_feed.feed.description)
+    print(len(parse_feed.entries))
+
+    if len(parse_feed.entries) > 0:
+        for entry in parse_feed.entries:
+            print(entry.title)
+            print(entry.link)
+            print(entry.id)
+            print(entry.published)
+            print(entry.summary)
+            print(entry.content)
