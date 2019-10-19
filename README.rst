@@ -7,7 +7,7 @@ ai_news_writer
         :target: https://pypi.python.org/pypi/ai_news_writer
 
 .. image:: https://img.shields.io/travis/RBStephensno/ai_news_writer.svg
-        :target: https://travis-ci.org/RBStephensno/ai_news_writer
+        :target: https://travis-ci.org/RBStephenson/ai_news_writer
 
 .. image:: https://readthedocs.org/projects/ai-news-writer/badge/?version=latest
         :target: https://ai-news-writer.readthedocs.io/en/latest/?badge=latest
