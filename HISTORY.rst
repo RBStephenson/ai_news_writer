@@ -2,6 +2,13 @@
 History
 =======
 
+0.1.2 (2019-11-01)
+------------------
+* Added RSS News Feed List feature
+* Added RSS News Feed step definitions
+* Started using `pytest-bdd` for feature and test development
+* Updated readme file to include some more details and ideas of what I want to accomplish with this project.
+
 0.1.1 (2019-10-19)
 ------------------
 

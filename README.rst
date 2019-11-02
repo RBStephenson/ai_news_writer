@@ -23,6 +23,13 @@ Additionally, this is an exercise in for me to learn Cookiecutter, Git, ReadTheD
 worked with TFS, SVN, and Jenkins for CI. This will be a *big* learning experience for me. I'm ready to bang my head
 against my desk and learn everything I can.
 
+I am also taking this opportunity to learn `pytest` and `pytest-bdd` to help me take the time a plan out what I want
+to do.
+
+And finally, I have decided that I will also build a `django` front-end for this project. This will allow me to maintain
+the RSS feed collection, gather articles, and generate my output (scripts). I'm really jumping in this whole hog and
+trying to see what's going to stick. In any case, this will be fun and a great learning experience.
+
 If you would like to contribute this project, please feel free and have fun!
 
 
