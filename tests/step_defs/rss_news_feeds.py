@@ -36,9 +36,9 @@ def step_impl():
     raise NotImplementedError(u'STEP: When I select an RSS news feed')
 
 
-@given("exceute the delete command")
+@given("execute the delete command")
 def step_impl():
-    raise NotImplementedError(u'STEP: And exceute the delete command')
+    raise NotImplementedError(u'STEP: And execute the delete command')
 
 
 @given("the RSS news feed should be removed from the RSS News Feed List")

@@ -42,7 +42,7 @@ Feature: RSS News Feed List
         Given I am a content creator
         And I want to remove an RSS news feed
         When I select an RSS news feed
-        And exceute the delete command
+        And execute the delete command
         Then I should not get an error
         And the RSS news feed should be removed from the RSS News Feed List
 
