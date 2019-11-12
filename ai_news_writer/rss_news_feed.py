@@ -16,17 +16,8 @@ class RSSNewsFeed(object):
 
     def update_item(self, key, url=None, name=None, category=None):
         # This method is a real kludge and I don't like it at all. I know that I could be doing something
-        # much more efficient Python-wise, however, I don't know what that is right now. I also realize that
-        # I still have a difficult time grasping list comprehensions, how they work and what they return.
-        # I had originally had a list comprehension to return the `org_item` but it was not returning the
-        # item I expected. I found the below `for` loop returns what I wanted so I could perform the update.
-        org_item = None
-
-        for item in iter(self.news_feeds):
-            if item['url'] == key:
-                org_item = item
-                break
-
+        # much more efficient Python-wise, however, I don't know what that is right now.
+        org_item = self.get_item(key)
         self.remove_item(key)
 
         new_item = {"url": url, "name": name, "category": category}
